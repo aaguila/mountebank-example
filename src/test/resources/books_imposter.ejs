@@ -1,0 +1,30 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "title": "book",
+  "stubs": [{
+      "responses": [
+            { "is": {
+                          "statusCode": 200,
+                          "headers": {
+                                        "Content-Type": "application/json"
+                                      },
+                          "body": {
+                                        "title": "Moby Dick",
+                                        "author": "Herman Melville",
+                                        "isbn": "9787806261279"
+                                      }
+                        }
+          }],
+    "predicates": [{
+          "and": [
+            {
+              "equals": {
+                "path": "/book/1",
+                "method": "GET"
+              }
+            }
+          ]
+        }]
+   }]
+}
