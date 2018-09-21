@@ -26,6 +26,4 @@
 /.nb-gradle/
 
 .mvn/
-gradle/
-gradlew*
 mb*
