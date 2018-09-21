@@ -5,4 +5,4 @@
 Example of isolated tests using mountebank
 
 ### Blog post url
-http://qajungle.com/mountebank-y-sus…nuestras-pruebas/
+http://qajungle.com/mountebank-y-sus-impostores-aislando-nuestras-pruebas/
